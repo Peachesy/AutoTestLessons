@@ -19,4 +19,7 @@ Recordings and homeworks of auto test lessons.
 #### Homework
 
 1.  My homework file link: https://github.com/Peachesy/AutoTestLessons/tree/master/Homeworks
+
+##### 阶段二作业
+1. 回合制游戏GitHub地址--https://github.com/Peachesy/AutoTestLessons/blob/master/Homeworks/TurnBasedGame.py
  
