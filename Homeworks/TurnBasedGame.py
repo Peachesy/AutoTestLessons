@@ -31,7 +31,7 @@ class timo:
         # 英雄最终的⾎量 = 英雄hp属性-敌⼈的攻击⼒enemy_power
         self.hp = self.hp - enemy_power
 
-        #敌⼈最终的⾎量 = 敌⼈的⾎量enemy_hp - 英雄的power属性
+        # 敌⼈最终的⾎量 = 敌⼈的⾎量enemy_hp - 英雄的power属性
         enemy_hp = enemy_hp - self.power
 
         if (self.hp > 0) or (enemy_hp > 0):
