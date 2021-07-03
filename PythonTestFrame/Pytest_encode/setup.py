@@ -21,7 +21,7 @@ setup(
     #需要安装的依赖
     install_requires = ['pytest'],
 
-    # 入口模块或者入口函数
+    # 入口模块或者入口函数,pytest11是一个固定用法！
     entry_points={
         'pytest11':[
             'pytest_encode = pytest_encode'

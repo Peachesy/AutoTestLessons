@@ -5,12 +5,12 @@ import pytest
 
 logging.basicConfig(
     level = logging.INFO,
-    format='%(asctime)s %(filename)s[line:%(lineno)d] % (level)',
+    format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
     datefmt = '%a,%d%b%Y%H:%M:%S',
     filename = 'report.log',
     filemode = 'w'
 )
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
 
 
 def pytest_collection_modifyitems(session, config, items:List):

@@ -1,4 +1,4 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: pytest-encode
 Version: 1.0
 Summary: set your encoding and logger
@@ -6,10 +6,12 @@ Home-page: https://github.com/XXX/pytest_encode
 Author: peachesy
 Author-email: 2360950972@qq.com
 License: proprietary
-Description: Show Chinese for your mark.parametrize(). Define logger variable
 Keywords: pytest,py.test,pytest_encode
 Platform: UNKNOWN
 Classifier: Framework::Pytest
 Classifier: Programming Language::Python
 Classifier: Topic::Software Development::Testing
 Classifier: Programming Language::Python::3.8
+
+Show Chinese for your mark.parametrize(). Define logger variable
+
